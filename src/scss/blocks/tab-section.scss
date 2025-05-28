@@ -1,6 +1,15 @@
 .tab--section {
+
+  &__title {
+    margin: 16px 0 20px;
+  }
+
+  &__subtitle {
+    margin-bottom: 73px;
+  }
+
   .tabs__nav {
-    margin-bottom: 50px;
+    margin-bottom: 56px;
     @media screen and (max-width: 660px) {
       margin-bottom: 25px;
     }
@@ -48,14 +57,14 @@
   }
 
   .tabs__item img {
-    margin-bottom: 15px;
+    margin-bottom: 13px;
   }
 
   .tabs__item h4 {
     font-size: 30px;
     line-height: 36px;
     color: #676770;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     @media screen and (max-width: 400px) {
       font-size: 24px;
     }

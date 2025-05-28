@@ -5,22 +5,25 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 20px 40px;
+    //gap: 20px 40px;
     @media screen and (max-width: 830px) {
       justify-content: space-evenly;
     }
   }
 
   &__desc-container > * {
-    width: 65%;
-    max-width: 220px;
+    width: 32%;
+    //max-width: 220px;
+  }
+
+  &__text {
 
   }
 
   &__desc h4 {
     font-size: 20px;
     line-height: 1;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: #676770;
     margin-bottom: 25px;
@@ -30,7 +33,7 @@
   }
 
   &__desc {
-    padding: 35px 0;
+    padding: 42px 0;
     @media screen and (max-width: 830px) {
       padding-top: 0;
     }

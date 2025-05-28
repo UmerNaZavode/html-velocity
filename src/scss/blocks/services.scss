@@ -1,4 +1,18 @@
 .services {
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__subtitle {
+    margin-bottom: 76px;
+  }
+
+  &__text {
+    width: 400px;
+    margin-left: 30px;
+  }
+
   .cards-wrapper {
     display: flex;
     justify-content: space-between;
@@ -10,7 +24,7 @@
   }
 
   .card {
-    width: 45%;
+    width: 49%;
     @media screen and (max-width: 600px) {
       width: 80%;
     }
@@ -21,7 +35,7 @@
   }
 
   .card h4 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     line-height: 1.5;
     letter-spacing: 7px;
     font-size: 20px;
