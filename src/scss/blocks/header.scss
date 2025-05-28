@@ -1,0 +1,51 @@
+.header {
+  padding: 20px 0;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav ul {
+    display: flex;
+  }
+
+  &__nav li + li {
+    margin-left: 40px;
+    @media screen and (max-width: 400px) {
+      margin-left: 15px;
+    }
+  }
+
+  .logo {
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #69b9ff;
+  }
+
+  &__nav a {
+    font-size: 16px;
+    color: #676770;
+    transition: color 0.2s;
+  }
+
+  &__nav a:hover {
+    color: #0082f3;
+  }
+
+  &__nav a:active {
+    color: #0062b6;
+  }
+}
+

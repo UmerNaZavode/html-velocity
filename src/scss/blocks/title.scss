@@ -1,0 +1,23 @@
+.title-wrapper {
+  margin-bottom: 60px;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 40px;
+  }
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 17px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #676770;
+}
+
+.subtitle {
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #8e8e9c;
+}
