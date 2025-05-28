@@ -6,6 +6,7 @@
 @use "blocks/reset";
 @use "blocks/base";
 @use "blocks/welcome";
+@use "blocks/about";
 
 .title-wrapper {
   margin-bottom: 60px;
@@ -152,46 +153,7 @@
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-/* -------------- ABOUT  -------------- */
-
-.about {
-}
-
-.about .cards-wrapper {
-  display: flex;
-  /*justify-content: space-between;*/
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.about .card {
-  padding: 35px 15px 25px;
-  max-width: 300px;
-  border: 1px solid #dcebf7;
-  border-radius: 5px;
-}
-
-.about .card img {
-  margin-bottom: 20px;
-  width: 94px;
-  height: 94px;
-  object-fit: contain;
-}
-
-.about .card h4 {
-  margin-bottom: 15px;
-  line-height: 1.5;
-  letter-spacing: 7px;
-  font-size: 20px;
-  text-transform: uppercase;
-  color: #676770;
-}
-
 /* -------------- SERVICES  -------------- */
-
-.services {
-}
 
 .services .cards-wrapper {
   display: flex;
@@ -418,9 +380,6 @@
     font-size: 12px;
   }
 
-  .about .card h4 {
-    font-size: 16px;
-  }
 
   .services .card h4 {
     font-size: 16px;

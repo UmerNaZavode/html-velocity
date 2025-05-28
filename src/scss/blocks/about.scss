@@ -1,0 +1,35 @@
+.about {
+  .cards-wrapper {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 35px 15px 25px;
+    max-width: 300px;
+    border: 1px solid #dcebf7;
+    border-radius: 5px;
+  }
+
+  .card img {
+    margin-bottom: 20px;
+    width: 94px;
+    height: 94px;
+    object-fit: contain;
+  }
+
+  .card h4 {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #676770;
+    @media screen and (max-width: 576px) {
+      font-size: 16px;
+    }
+  }
+}
